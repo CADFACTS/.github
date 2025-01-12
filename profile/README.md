@@ -2,6 +2,16 @@
 
 ## How to run
 
+### Before Running ensure shared_network is created
+
+```sh
+docker network inspect shared_network
+
+#if not
+docker network create shared_network
+```
+
+
 ### Running Backend
 
 ```sh
